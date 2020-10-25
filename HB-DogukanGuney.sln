@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.Rover.Domain", "HB.Rover.Domain\HB.Rover.Domain.csproj", "{69DAB8AD-0201-418E-930D-831F25D547A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.Rover.Infrastructure", "HB.Rover.Core\HB.Rover.Infrastructure.csproj", "{E30230AC-0898-404F-96BA-5C704A9681CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.Rover.UI", "HB.Rover.UI\HB.Rover.UI.csproj", "{B9318523-A32E-4D5A-840F-E3A55541A1BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{773817BC-62E8-4FAD-AA1E-343D7607CDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HB.Rover.Domain.Test", "Test\HB.Rover.Domain.Test\HB.Rover.Domain.Test.csproj", "{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HB.Rover.Domain.IntegrationTest", "Test\HB.Rover.Domain.IntegrationTest\HB.Rover.Domain.IntegrationTest.csproj", "{62D4FE93-E647-4470-B165-54BDE2F2A900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69DAB8AD-0201-418E-930D-831F25D547A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DAB8AD-0201-418E-930D-831F25D547A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DAB8AD-0201-418E-930D-831F25D547A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DAB8AD-0201-418E-930D-831F25D547A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30230AC-0898-404F-96BA-5C704A9681CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30230AC-0898-404F-96BA-5C704A9681CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30230AC-0898-404F-96BA-5C704A9681CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30230AC-0898-404F-96BA-5C704A9681CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9318523-A32E-4D5A-840F-E3A55541A1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9318523-A32E-4D5A-840F-E3A55541A1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9318523-A32E-4D5A-840F-E3A55541A1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9318523-A32E-4D5A-840F-E3A55541A1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D4FE93-E647-4470-B165-54BDE2F2A900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D4FE93-E647-4470-B165-54BDE2F2A900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D4FE93-E647-4470-B165-54BDE2F2A900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D4FE93-E647-4470-B165-54BDE2F2A900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ADDCC79-8E0C-4FB7-8739-EEB623F47A13} = {773817BC-62E8-4FAD-AA1E-343D7607CDBD}
+		{62D4FE93-E647-4470-B165-54BDE2F2A900} = {773817BC-62E8-4FAD-AA1E-343D7607CDBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F3B9962-3D76-4B09-9E65-F41383E39312}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HB.Rover.Core\HB.Rover.Infrastructure.csproj" />
+    <ProjectReference Include="..\HB.Rover.Domain\HB.Rover.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
