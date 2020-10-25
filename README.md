@@ -1,6 +1,6 @@
 # Mars Rover
 
-Mars rover is a .net core project for hepsi burada firm interview.
+Mars rover is a .net core project for Hepsi Burada firm interview.
 
 ## Installation
 
